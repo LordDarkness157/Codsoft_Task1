@@ -1,0 +1,287 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f2f2f2;
+    color: #0e0d0d;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8cacfb;
+}
+
+
+section {
+    padding: 4rem 0;
+}
+
+
+#home {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+#about {
+    background-color: #fafcf3;
+    padding: 4rem 0;
+    text-align: center;
+    color: #444;
+}
+
+
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #242424;
+}
+
+.about-section {
+    background-image: url('images/backg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #121111;
+}
+
+.about-image {
+    flex-basis: 45%; 
+}
+
+.about-image img {
+    max-width: 60%;
+    border-radius: 10%;
+}
+
+.about-text {
+    flex-basis: 50%; 
+    margin-top: 1rem; 
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+
+
+#portfolio {
+    text-align: center;
+    text-emphasis-color: #fff;
+    background-color: #0c0c0c;
+    padding: 4rem 0;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #b0f871; 
+}
+
+
+.project {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(176, 5, 5, 0.637);
+    border-radius: 10px;
+    margin: 1.5rem;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(10, 45, 241, 0.478);
+}
+
+.project img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    margin-right: 1.5rem;;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+
+
+
+#skills {
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    color: #444;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-list li {
+    font-size: 1.2rem;
+    margin: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.skill-list li:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgb(53, 1, 1); 
+}
+
+
+
+
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#resume {
+    background-color: #050404;
+    padding: 4rem 0;
+    text-align: center  ;
+    color:  #ccc;
+}
+
+#resume h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#resume p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+#resume .pdf-preview {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+
+
+#contact p {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+#contact a {
+    color: lightblue
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
